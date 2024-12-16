@@ -1,5 +1,5 @@
 const API_URL = 'https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell'
-const API_TOKEN = import.meta.env.VITE_HUGGING_FACE_API_TOKEN
+const API_TOKEN = import.meta.env.API_TOKEN
 
 export const generateImage = async (prompt) => {
   try {
